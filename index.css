@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+.main{
+    background-image: url(bg.jpg);
+    background-position: center center;
+    background-size: max(1000px,100vw);
+    position: relative;
+    height: 100vh;
+   
+    width: 100%;
+
+}
+.box{
+    position: absolute;  
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    opacity: 0.8;
+    background-color: black;
+}
+nav{
+ 
+ display: flex;
+ margin: auto;
+ z-index: 10;
+ justify-content: space-between;
+ padding: 15px 25px;
+}
+nav img{
+    position: relative;
+    z-index: 10;
+}
+
+nav .btn button{
+    padding: 2px 10px;
+    margin-right: 10px;
+    position: relative;
+    z-index: 10;
+    background: transparent;
+    color: white;
+   border: 1px solid white;
+   font-weight: bold;
+}
+  .btn button:nth-child(2){
+ background-color: red !important;
+ border-radius: 5px;
+ padding: 5px 10px;
+
+}
+
+.hero{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    position: relative;
+    z-index: 10;
+    color: white;
+    flex-wrap: nowrap;
+    row-gap: 20px;
+
+    flex-direction: column;
+   
+}
+.hero .content{
+    padding-left: 70px;
+}
+
+.hero div:first-of-type{
+    font-size: 45px;
+   
+    
+ 
+    
+}
+.hero div:nth-of-type(2){
+    font-size: 19px;
+    
+}
+.hero span{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.341);
+    font-weight: 400;
+}
+
+.hero .inputs {
+  padding-bottom: 50px;
+}
+ input{
+    padding: 8px 50px;
+    color: white;
+    background: transparent;
+    text-align: start;
+    border: 1px green solid;
+    border-radius: 4px;
+}
+ button{
+    padding: 8px 30px;
+    background: rgb(233, 17, 17);
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.container{
+background: black;
+color: white;
+}
+.section{
+    
+    width: 80%;
+    margin: auto;
+    
+    font-weight: bold;
+   
+    padding-top: 5px;
+    
+}
+.section .resons{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+}
+.resons div{
+    height: 150px;
+    border-radius: 10px;
+    width: 20%;
+  
+    display: flex;
+    font-weight: bold;
+    padding: 20px 20px 5px 10px;
+    background: linear-gradient(#192247 ,#210e17);
+   
+}
+.resons div svg{
+    align-self: end;
+
+}
+.section .frequestion{
+    padding-top: 50px;
+    
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.frequestion .qt{
+    height: 50px;
+    width: 80%;
+   display: flex;
+    padding: 0 20px;
+   justify-content: space-between;
+   font-weight: 400;
+   background-color: rgba(78, 75, 75, 0.901);
+   align-items: center;
+   margin-top: 5px;
+
+}
+.frequestion .qt1,.qt2,.qt3,.qt4,.qt5,.qt6{
+   margin-top: 5px;
+    background-color: rgba(78, 75, 75, 0.901);
+    width: 80%;
+    font-weight: 400;
+    padding: 0 20px;
+
+}
+footer{
+    width: 85%;
+    margin-top: 30px;
+    font-weight: normal;
+    
+}
+footer span{
+    color: rgba(255, 255, 255, 0.592);
+    
+}
+
+footer .input{
+    display: flex;
+    margin-top: 20px;
+}
+footer .input input{
+   width: 50%;
+    margin-right: 5px;
+}
+footer li{
+    list-style-type: none;
+    margin-top: 15px;
+    
+}
+footer .info{
+    display: flex;
+  
+    justify-content: space-between;
+    font-weight: 200;
+    font-size: 10px;
+    
+    
+}
+footer .last{
+  
+    padding: 50px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.last button{
+    border: 1px white solid;
+    background: transparent;
+    color: white;
+   display: flex;
+   width: 100px;
+   justify-content:space-evenly;
+
+
+}
